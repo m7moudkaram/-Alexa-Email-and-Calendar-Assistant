@@ -1,5 +1,7 @@
 # Alexa — AI Email & Calendar Assistant
 
+![Alexa Workflow Diagram](./workflow-diagram.png)
+
 An n8n-based AI agent that manages email and calendar tasks on the user's behalf. Built as part of the **Digital Egypt Pioneers Initiative (DEPI)**.
 
 ## Description
