@@ -12,7 +12,7 @@ The workflow is triggered by an incoming chat message, processed by an AI Agent 
 
 ## How It Works
 
-1. **Trigger** — A chat message comes in and starts the workflow.
+1. **Trigger** — A chat message comes in and starts the workflow (We can replace it easily with Telegram).
 2. **Agent (Alexa)** — The core AI Agent node interprets the user's request and decides which tool(s) to use, following its defined behavior rules.
 3. **Chat Model** — Google Gemini powers the agent's reasoning and responses.
 4. **Memory** — A simple memory module retains context from earlier in the conversation (e.g., preferred meeting duration, frequently used recipients).
@@ -48,10 +48,6 @@ The workflow is triggered by an incoming chat message, processed by an AI Agent 
 - "Schedule a call with the team on Thursday at 4 PM."
 - "Draft an email to my professor about the deadline extension."
 - "Search for the latest AI agent frameworks."
-
-## Notes
-
-This project focuses less on tool integration (which is straightforward) and more on **prompt design** — defining clear rules for when the agent acts, when it asks for clarification, and how it handles uncertainty or failure. The system prompt functions as the actual design document for the agent's judgment and behavior.
-
+- 
 ---
 Built as part of DEPI (Digital Egypt Pioneers Initiative).
